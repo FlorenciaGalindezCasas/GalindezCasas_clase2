@@ -1,0 +1,119 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.navbar {
+    transition:color 3s ease;
+}
+
+.navbar a:hover{
+    color: #BFF39B;
+}
+
+nav a{
+    margin-left:50px
+}
+
+.navbar-nav{
+    display:flex;
+    justify-content:flex-end;
+    margin-right: 2%
+}
+
+section{
+    min-height:100vh;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+}
+
+.hero{
+    background-image: url("./assets/img/hero.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height:100vh;    
+    align-items: center;
+}
+
+.hero a{
+    width:80%; 
+    background-color: grey;
+    border:none;
+    font-size: 2em;
+    transition:all 1s ease;
+}
+
+.hero a:hover{
+    background-color: white;
+    color: black;
+}
+
+.col-6{ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    margin:5%
+}
+
+.calculator{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:10px;
+    text-align:center;
+    margin:5%
+}
+
+input{
+    border:none;
+    background-color: #F1F1F1;
+    width:100%;
+    height:30px;
+    border-radius: 5px;
+    text-align:center;
+}
+
+input:focus{
+    outline:none;
+} 
+
+p{
+    font-size:1.2em;
+    text-align: justify
+}
+
+.operaciones{
+    display:flex;
+    margin-top: 1%;
+    gap:10px;
+}
+
+.operaciones button{
+    width:40px;
+    height:40px;
+    border-radius: 5px;  
+    border:none;  
+    transition: all .5s ease;
+}
+
+.operaciones button:hover{
+    background-color: #BFF39B
+}
+
+@media (max-width: 425px){
+    .hero a{
+        font-size: 1.5em;
+    }
+
+}
