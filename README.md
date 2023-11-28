@@ -1,4 +1,4 @@
-# Ejercicio3-React-UTN
+# Clase2-React-UTN
 ## Consigna
 
 ### Ejercicio 1
